@@ -29,7 +29,7 @@ const fireball_damage = async () => {
 };
 
 function App() {
-	const [data, setData] = useState("Roll for damage!");
+	const [data, setData] = useState<string | number[]>("Roll for damage!");
 
 	return (
 		<div className="App">
